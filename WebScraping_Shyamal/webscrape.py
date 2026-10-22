@@ -5,9 +5,7 @@ import os
 import re
 
 
-# ---------------------------------------------------------
-# Function to fetch webpage
-# ---------------------------------------------------------
+# Function to web page 
 
 def fetch_webpage(url):
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -17,9 +15,7 @@ def fetch_webpage(url):
     return response.text
 
 
-# ---------------------------------------------------------
-# Function to extract product details
-# ---------------------------------------------------------
+# Function to extract to details 
 
 def extract_product_details(url):
 
@@ -79,9 +75,7 @@ def extract_product_details(url):
     }
 
 
-# ---------------------------------------------------------
-# Function to download product image
-# ---------------------------------------------------------
+# Function to download product image 
 
 def download_image(image_url, product_number):
 
@@ -107,9 +101,7 @@ def download_image(image_url, product_number):
     return image_path
 
 
-# ---------------------------------------------------------
-# Function to compare price
-# ---------------------------------------------------------
+# Function to compare price 
 
 def compare_price(current_price, target_price):
 
@@ -129,9 +121,8 @@ def compare_price(current_price, target_price):
         return "Price is above target price"
 
 
-# ---------------------------------------------------------
-# Main program
-# ---------------------------------------------------------
+
+# Main programm
 
 products = [
 
@@ -188,3 +179,8 @@ for product_number, product in enumerate(products, start=1):
     except Exception as error:
 
         print(f"Error: {error}")
+
+
+
+
+

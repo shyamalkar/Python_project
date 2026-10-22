@@ -8,9 +8,7 @@ import uuid
 import pandas as pd
 
 
-# ============================================================
-# APPLICATION CONFIGURATION . 
-# ============================================================
+# application interface 
 
 st.set_page_config(
     page_title="Animal Rescue",
@@ -22,6 +20,7 @@ st.set_page_config(
 # ============================================================
 # DIRECTORIES
 # ============================================================
+
 
 BASE_DIR = Path(__file__).parent
 
