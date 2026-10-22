@@ -263,7 +263,7 @@ with tab2:
 
 # Disel 
 
-    st.markdown("### 🛢️ Diesel")
+    st.markdown("### Diesel")
 
 
     col1, col2 = st.columns(2)
@@ -296,7 +296,7 @@ with tab2:
 
 # labour 
     labour = st.number_input(
-        "👷 Labour Cost (₹)",
+        "Labour Cost (₹)",
         min_value=0.0,
         value=0.0,
         step=1000.0
@@ -306,43 +306,37 @@ with tab2:
 # Electrictiy / lich
 
     electricity = st.number_input(
-        "💧 Electricity / Other Utility Cost (₹)",
+        "Electricity / Other Utility Cost (₹)",
         min_value=0.0,
         value=0.0,
         step=1000.0
     )
 
 
-    # --------------------------------------------------------
-    # MEDICINE
-    # --------------------------------------------------------
+# medicine 
 
     medicine = st.number_input(
-        "💊 Medicine Cost (₹)",
+        "Medicine Cost (₹)",
         min_value=0.0,
         value=0.0,
         step=1000.0
     )
 
 
-    # --------------------------------------------------------
-    # FEED
-    # --------------------------------------------------------
+# Feed 
 
     feed_cost = st.number_input(
-        "🌾 Feed Cost (₹)",
+        "Feed Cost (₹)",
         min_value=0.0,
         value=0.0,
         step=1000.0
     )
 
 
-    # --------------------------------------------------------
-    # BABY PIN
-    # --------------------------------------------------------
+# baby pin 
 
     pin_cost = st.number_input(
-        "🐠 Baby Pin Cost (₹)",
+        "Baby Pin Cost (₹)",
         min_value=0.0,
         value=0.0,
         step=1000.0
